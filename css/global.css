@@ -231,3 +231,21 @@ main {
   fill: var(--pale-orange);
 }
 /*FOOTER END*/
+.ring__wrapper {
+  height: 1px;
+  width: 760px;
+  background-color: var(--pale-orange);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.ring {
+  display: inline-block;
+  height: 31px;
+  width: 31px;
+  border: 2px solid var(--dark-cyan);
+  border-radius: 50%;
+  background-color: #ffffff;
+}

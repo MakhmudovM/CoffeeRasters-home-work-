@@ -1,0 +1,161 @@
+.main {
+}
+.hero {
+  margin-bottom: 155px;
+}
+.hero__container {
+  background-image: url("../images/plan/desktop/image-hero-blackcup.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1280px;
+  height: 450px;
+  background-color: #a2a2a2;
+  padding: 134px 86px;
+}
+
+.hero__content {
+  color: var(--light-cream-bg);
+  width: 486px;
+  display: flex;
+  height: 182px;
+  padding-right: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero__title {
+  margin-bottom: 32px;
+}
+.hero__description {
+  opacity: 0.8;
+}
+
+/*steeps*/
+
+.steeps {
+  margin-bottom: 168px;
+}
+.steeps__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--footer-bg);
+  padding: 115px 0px 100px 80px;
+  border-radius: 10px;
+}
+.line {
+}
+
+.steeps__list {
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+}
+.steeps__item {
+  color: var(--light-cream-bg);
+}
+.steeps__title {
+  color: var(--pale-orange);
+  margin-bottom: 38px;
+  font-family: var(--title-font-family);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+}
+.steeps__second-title {
+  margin-bottom: 42px;
+  width: 255px;
+}
+.steeps__description {
+  width: 285px;
+  margin-right: 90px;
+}
+
+/*coofeetip*/
+
+.coffeetip {
+  margin-bottom: 168px;
+}
+.coffeetip__wrapper {
+  display: flex;
+
+  justify-content: space-between;
+}
+.container {
+}
+.coffeetip__chois {
+}
+.coffeetip__chois-list {
+}
+.coffeetip__chois-description1 {
+  color: var(--dark-grey-blue);
+  font-weight: 900;
+  width: 250px;
+  margin-bottom: 24px;
+}
+.coffeetip__chois-description {
+  color: var(--gray);
+  font-weight: 900;
+
+  margin-bottom: 24px;
+}
+.coffee__order {
+}
+.coffee__order-list {
+}
+.coffee__order-box {
+  width: 228px;
+  height: 250px;
+  border-radius: 8px;
+  background-color: var(--preferance-bg);
+  margin-bottom: 88px;
+  padding: 32px 28px;
+}
+.box {
+  display: flex;
+}
+.coffee__order-title {
+  margin-bottom: 56px;
+}
+.coffee__order-item {
+  gap: 24px;
+}
+.coffee__order-box-title {
+  color: var(--dark-grey-blue);
+  margin-bottom: 24px;
+}
+.OrderSummary {
+  width: 640px;
+  padding: 45px 24px;
+  background-color: var(--footer-bg);
+  border-radius: 10px;
+  color: var(--light-cream-bg);
+  font-weight: 900;
+  line-height: 40px;
+}
+.text-green {
+  color: var(--dark-cyan);
+}
+
+hr {
+  margin-bottom: 24px;
+}
+.pre-text {
+  color: var(--gray);
+  margin-bottom: 8px;
+}
+.pre-order-text {
+  max-width: 560px;
+}
+.OrderSummarybtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 425px;
+  padding-right: 20px;
+  background-color: var(--button-disabeled);
+  color: var(--light-cream-bg);
+}
